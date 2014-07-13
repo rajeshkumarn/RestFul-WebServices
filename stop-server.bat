@@ -1,0 +1,1 @@
+mvn jetty:stop -DstopPort=8078 -DstopKey=stopJetty
