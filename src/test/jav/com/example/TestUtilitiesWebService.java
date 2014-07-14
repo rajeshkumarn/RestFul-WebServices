@@ -14,7 +14,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestWebService
+public class TestUtilitiesWebService
 {
 
     private WebTarget target;
@@ -34,6 +34,7 @@ public class TestWebService
     @After
     public void tearDown() throws Exception
     {
+        target = null;
     }
 
     @Test
